@@ -1,0 +1,42 @@
+{
+  "name": "appl",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/j-dine/pfa.git",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "app": "next build",
+    "lint": "next lint",
+    "predeploy":"npm run app",
+    "deploy":"gh-pages -d app"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.14.0",
+    "@prisma/extension-accelerate": "^1.3.0",
+    "emoji-picker-react": "^4.12.2",
+    "init": "^0.1.2",
+    "lucide-react": "^0.487.0",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.2",
+    "sqlite": "^5.1.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "daisyui": "^5.0.16",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "gh-pages": "^6.3.0",
+    "prisma": "^6.6.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.3",
+    "typescript": "^5"
+  }
+}
